@@ -30,10 +30,9 @@ def number_to_name(number):
         return 'scissors'
     else:
         return 'rock'
-
-
-def main():
-
+    
+def play():
+    
     while True:
         # play Rock-paper-scissors-lizard-Spock in Python
         # get input from player
@@ -90,7 +89,13 @@ def main():
             print("")
             print("")
 
+
+def main():
+    play()
+
+
 if __name__ == '__main__':
     main()
+
             
 
